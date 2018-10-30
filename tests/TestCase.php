@@ -61,5 +61,11 @@ class TestCase extends OrchestraTestCase
             $table->string('title');
             $table->string('status');
         });
+
+        $app['db']->connection()->getSchemaBuilder()->create('favorite_days', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('title');
+            $table->integer('day');
+        });
     }
 }

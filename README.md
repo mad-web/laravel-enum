@@ -106,6 +106,10 @@ $post->status = PostStatusEnum::PENDING();
 $post->save();
 ```
 
+If you use enum values of type integer with Eloquent models you could add the `CastToIntegerConstructor` trait in the
+Enum class to convert string representations of the integer to the corresponding enum. Depending on the database driver
+used integers might te returned as strings instead of integer.
+
 ### Enum values labels (Localization)
 
 Create `enums.php` lang file and declare labels for enum values
