@@ -1,4 +1,4 @@
-# Very short description of the package
+# PHP Enum Implementation for Laravel
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -35,11 +35,11 @@ use MadWeb\Enum\Enum;
  */
 final class PostStatusEnum extends Enum
 {
-    const __default = self::PENDING;
+    public const __default = self::PENDING;
 
-    const PUBLISHED = 'published';
-    const PENDING = 'pending';
-    const DRAFT = 'draft';
+    public const PUBLISHED = 'published';
+    public const PENDING = 'pending';
+    public const DRAFT = 'draft';
 }
 ```
 
