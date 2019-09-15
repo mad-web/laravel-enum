@@ -11,9 +11,9 @@ use MadWeb\Enum\Enum;
  */
 final class MyEnumValuedArguments extends Enum
 {
-    const __default = self::SMALL;
+    public const __default = self::SMALL;
 
-    const SMALL = 's';
-    const MEDIUM = 'm';
-    const LARGE = 'l';
+    public const SMALL = 's';
+    public const MEDIUM = 'm';
+    public const LARGE = 'l';
 }
