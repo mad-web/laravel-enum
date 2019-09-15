@@ -14,12 +14,12 @@ use MadWeb\Enum\Enum;
  */
 final class MyEnumMixedValueValuelessArguments extends Enum
 {
-    const __default = self::WITH1;
+    public const __default = self::WITH1;
 
-    const WITH1 = 'with1';
-    const WITHOUT1 = 0;
-    const WITH2 = 'with2';
-    const WITHOUT2 = 1;
-    const WITHOUT3 = 2;
-    const WITH3 = 'with3';
+    public const WITH1 = 'with1';
+    public const WITHOUT1 = 0;
+    public const WITH2 = 'with2';
+    public const WITHOUT2 = 1;
+    public const WITHOUT3 = 2;
+    public const WITH3 = 'with3';
 }
