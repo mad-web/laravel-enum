@@ -133,7 +133,7 @@ class EnumMakeCommand extends GeneratorCommand
     {
         $constList = [];
         foreach ($this->getConstants() as $const => $value) {
-            $constList[] = is_int($value) ? "    const {$const} = {$value};" : "    const {$const} = '{$value}';";
+            $constList[] = is_int($value) ? "    public const {$const} = {$value};" : "    public const {$const} = '{$value}';";
         }
 
         $stub = str_replace(['DEFAULTVALUE', 'CONSTLIST'], [array_keys($this->getConstants())[0], implode(PHP_EOL, $constList)], $stub);

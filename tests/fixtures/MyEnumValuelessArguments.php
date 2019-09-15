@@ -11,9 +11,9 @@ use MadWeb\Enum\Enum;
  */
 final class MyEnumValuelessArguments extends Enum
 {
-    const __default = self::SMALL;
+    public const __default = self::SMALL;
 
-    const SMALL = 0;
-    const MEDIUM = 1;
-    const LARGE = 2;
+    public const SMALL = 0;
+    public const MEDIUM = 1;
+    public const LARGE = 2;
 }

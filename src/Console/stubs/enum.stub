@@ -9,7 +9,7 @@ DOCBLOCK
  */
 final class DummyClass extends Enum
 {
-    const __default = self::DEFAULTVALUE;
+    public const __default = self::DEFAULTVALUE;
 
 CONSTLIST
 }
