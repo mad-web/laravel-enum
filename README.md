@@ -48,18 +48,7 @@ final class PostStatusEnum extends Enum
 You can install the package via composer:
 
 ```bash
-composer require mad-web/laravel-enum
-```
-
-If you use Laravel 5.4 version, add service provider into `app.php` config file
-
-```php
-// config/app.php
-
-'providers' => [
-    ...
-    \MadWeb\Enum\EnumServiceProvider::class,
-],
+composer require mad-web/laravel-enum:^1.0
 ```
 
 ## Usage
