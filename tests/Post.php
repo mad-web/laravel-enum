@@ -2,8 +2,8 @@
 
 namespace MadWeb\Enum\Test;
 
-use MadWeb\Enum\EnumCastable;
 use Illuminate\Database\Eloquent\Model;
+use MadWeb\Enum\EnumCastable;
 
 class Post extends Model
 {

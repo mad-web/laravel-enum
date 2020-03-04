@@ -2,9 +2,9 @@
 
 namespace MadWeb\Enum\Rules;
 
-use MadWeb\Enum\Enum;
-use InvalidArgumentException;
 use Illuminate\Contracts\Validation\Rule;
+use InvalidArgumentException;
+use MadWeb\Enum\Enum;
 
 class EnumRule implements Rule
 {

@@ -2,8 +2,8 @@
 
 namespace MadWeb\Enum\Test;
 
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\File;
 
 class EnumMakeCommandTest extends TestCase
 {
