@@ -1,4 +1,4 @@
-# Very short description of the package
+# Elegant Enum implementation for Laravel
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,8 +7,6 @@
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
-
-Elegant Enum implementation for Laravel.
 
 Based on [MyCLabs PHP Enum](https://github.com/myclabs/php-enum) and implements [SplEnum](http://php.net/manual/ru/class.splenum.php) interface.
 
