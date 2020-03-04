@@ -76,7 +76,7 @@ class EnumMakeCommand extends GeneratorCommand
     protected function getArguments()
     {
         return array_merge(parent::getArguments(), [
-          ['values', InputArgument::IS_ARRAY, 'The const maps e.g. ACTIVE=active DELETED=deleted; or FOO BAR BAZ for FOO=0 BAR=1 BAZ=2'],
+            ['values', InputArgument::IS_ARRAY, 'The const maps e.g. ACTIVE=active DELETED=deleted; or FOO BAR BAZ for FOO=0 BAR=1 BAZ=2'],
         ]);
     }
 
