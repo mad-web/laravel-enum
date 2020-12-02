@@ -24,7 +24,6 @@ trait EnumCastable
         return new static($value);
     }
 
-    
     public function set($model, string $key, $value, array $attributes)
     {
         if ($value instanceof static) {
